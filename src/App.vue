@@ -1,20 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Nasa Info</h1>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { getTodaysInfo } from '../apiCalls';
+import { apiKey } from '../apiKey'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
   },
-  methods: {
-    mount
+  data() {
+    return {
+      todaysImage: {}
+    }
+  },
+  async created() {
+    fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
+    .then(response => {
+      if(!response.ok){
+        return error => error.message
+      }else{
+        return response.json()
+      }
+    })
+    .then(todaysInfo => {
+      this.todaysImage = todaysInfo
+    })
+    .catch(error => error.message)
   }
 }
 </script>
