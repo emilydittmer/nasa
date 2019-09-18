@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <h1>Nasa Info</h1>
+    <Header />
+    <TodayInfo v-bind:todaysImage="todaysImage"/>
   </div>
 </template>
 
 <script>
-import { getTodaysInfo } from '../apiCalls';
 import { apiKey } from '../apiKey'
+import Header from './components/Header'
+import TodayInfo from './components/TodayInfo'
 
 export default {
   name: 'app',
   components: {
+    Header,
+    TodayInfo
   },
   data() {
     return {
@@ -39,8 +43,9 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* justify-content: center; */
   color: #2c3e50;
-  margin-top: 60px;
 }
+
+
 </style>
