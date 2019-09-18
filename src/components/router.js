@@ -12,7 +12,7 @@ export default new Router({
       component: Home
     },
     {
-      path: "/PhotosoftheMonth",
+      path: "/ViewPhotosByDate",
       name: "Monthly Info",
 
       component: () => import("./MonthlyInfo.vue")
