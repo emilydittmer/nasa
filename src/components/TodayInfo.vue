@@ -30,6 +30,7 @@
   }
   .nasa-title {
     font-size: 2em;
+    margin: 0 10px;
   }
   .nasa-image {
     max-height: 400px;
@@ -37,7 +38,7 @@
   }
   .nasa-explanation {
     max-width: 1000px;
-    text-align: center;
+    text-align: justify;
     font-size: 1em;
   }
 </style>
