@@ -1,29 +1,43 @@
-# nasa-vue
+# NASA APoD
 
-## Project setup
-```
-yarn install
-```
+## Description
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+NASA APod is a Vue app created in the timeline of a take home code challenge. It's a single page application that allows users to view the NASA Astronomy Photo of the Day, or search for more photos based on a selected date.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Installation
 
-### Run your tests
-```
-yarn run test
-```
+```git clone https://github.com/emilydittmer/nasa.git```
 
-### Lints and fixes files
-```
-yarn run lint
-```
+Once you have cloned the repo, to install the library dependencies cd into the folders just created and run:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```npm install```
+
+Once everything is installed, run:
+
+```npm run serve```
+
+Open page in http://localhost:8080
+
+## Technologies Used
+- Vue
+- Vue Router
+- API fetches
+- Webpack
+- NPM
+- JavaScript
+- CSS
+- HTML
+
+## Screenshots
+### Home Page
+![Home Page]()
+### Select New Date
+![Generate Palette]()
+
+## Learning Goals
+- Professional workflow (git branches, commits, waffle board)
+- Front-end engineering knowledge learned throughout time at Turing
+- The ability to use a concept/library/framework that you have not been taught explicitly at Turing
+
+## Contributors
+[Emily Dittmer](https://github.com/emilydittmer)
