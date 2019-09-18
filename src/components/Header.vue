@@ -1,7 +1,7 @@
 <template>
   <header class='header'>
      <router-link to="/" class='main-title'>NASA APoD</router-link>
-     <router-link to="/PhotosoftheMonth" class='monthly-link'>Monthly Photos</router-link>
+     <router-link to="/ViewPhotosByDate" class='monthly-link'>View More Photos</router-link>
   </header>
 </template>
 

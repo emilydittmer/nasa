@@ -7,11 +7,13 @@
 
 <script>
   import Header from './Header';
+  import Form from './Form'
 
   export default {
     name: 'Monthly Info',
     components: {
-      Header
+      Header,
+      Form
     }
   }
 </script>
