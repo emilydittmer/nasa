@@ -30,9 +30,9 @@ Open page in http://localhost:8080
 
 ## Screenshots
 ### Home Page
-![Home Page]()
+![Home Page](https://github.com/emilydittmer/nasa/blob/master/src/assets/HomeScreen.png)
 ### Select New Date
-![Generate Palette]()
+![Generate Palette](https://github.com/emilydittmer/nasa/blob/master/src/assets/ViewNewPhotoScreen.png)
 
 ## Learning Goals
 - Professional workflow (git branches, commits, waffle board)
