@@ -18,6 +18,8 @@ Once everything is installed, run:
 
 Open page in http://localhost:8080
 
+Please note, you will need to sign up for an API Key: [here](https://api.nasa.gov/index.html#apply-for-an-api-key)
+
 ## Technologies Used
 - Vue
 - Vue Router
