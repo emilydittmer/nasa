@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form @submit='setDate'>
     <label>Please select a date:</label>
     <input type='date' v-model='inputDate'/>
     <input type='submit'/>
@@ -13,8 +13,13 @@ export default {
     return {
       inputDate:''
     }
+  },
+  methods: {
+    setDate() {
+      const newDate = this.inputDate
+      this.$emit('setNewPhoto', newDate)
+    }
   }
-
 }
 </script>
 
