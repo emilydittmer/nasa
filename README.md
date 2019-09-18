@@ -18,6 +18,8 @@ Once everything is installed, run:
 
 Open page in http://localhost:8080
 
+Please note, you will need to sign up for an API Key: [here](https://api.nasa.gov/index.html#apply-for-an-api-key)
+
 ## Technologies Used
 - Vue
 - Vue Router
@@ -30,9 +32,9 @@ Open page in http://localhost:8080
 
 ## Screenshots
 ### Home Page
-![Home Page]()
+![Home Page](https://github.com/emilydittmer/nasa/blob/master/src/assets/HomeScreen.png)
 ### Select New Date
-![Generate Palette]()
+![Generate Palette](https://github.com/emilydittmer/nasa/blob/master/src/assets/ViewNewPhotoScreen.png)
 
 ## Learning Goals
 - Professional workflow (git branches, commits, waffle board)
