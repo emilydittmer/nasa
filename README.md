@@ -35,6 +35,8 @@ Please note, you will need to sign up for an API Key: [here](https://api.nasa.go
 ![Home Page](https://github.com/emilydittmer/nasa/blob/master/src/assets/HomeScreen.png)
 ### Select New Date
 ![Generate Palette](https://github.com/emilydittmer/nasa/blob/master/src/assets/ViewNewPhotoScreen.png)
+### Wireframes
+![Wireframes](https://github.com/emilydittmer/nasa/blob/master/src/assets/IMG_1466.HEIC)
 
 ## Learning Goals
 - Professional workflow (git branches, commits, waffle board)
